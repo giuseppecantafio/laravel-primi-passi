@@ -10,15 +10,12 @@
             width: 100%;
             margin: 0 auto;
         }
-        h1{
-            text-align: center;
-        }
     </style>
 </head>
 <body>
     <div>
         <h1>Hello world</h1>
-        <h2><a href="{{route('altraPagina')}}"></a></h2>
+        <a href="{{route('altraPagina')}}">Altra pagina</a>
     </div>
 </body>
 </html>
