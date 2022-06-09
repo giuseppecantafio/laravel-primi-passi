@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prova Laravel</title>
+    <title>Altra Pagina</title>
     <style>
         div{
             width: 100%;
@@ -17,8 +17,8 @@
 </head>
 <body>
     <div>
-        <h1>Hello world</h1>
-        <h2><a href="{{route('altraPagina')}}"></a></h2>
+        <h1>Benvenuto in Altra Pagina!</h1>
+        <a href="{{route('welcome')}}">Vai a welcome</a>
     </div>
 </body>
 </html>
